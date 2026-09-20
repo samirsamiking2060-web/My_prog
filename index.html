@@ -16,25 +16,25 @@
 
 
     
-    <link href="../../static_shared/css/course_offline.a04cb.css" rel="stylesheet">
+    <link href="../static_shared/css/course_offline.a04cb.css" rel="stylesheet">
     
 
     
-    <link href="../../static_shared/css/common.a04cb.css" rel="stylesheet">
+    <link href="../static_shared/css/common.a04cb.css" rel="stylesheet">
     
 
 
   
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="This file contains information regarding lecture 46.">
+  <meta name="description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity">
   <meta name="keywords" content="opencourseware,MIT OCW,courseware,MIT opencourseware,Free Courses,class notes,class syllabus,class materials,tutorials,online courses,MIT courses">
   
   <meta property="og:site_name" content="MIT OpenCourseWare">
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/resources/mit6_170s13_46-dom-stars/" />
-  <meta property="og:title" content="DOM: Star Rating Widget Example | Software Studio | Electrical Engineering and Computer Science | MIT OpenCourseWare" />
-  <meta property="og:description" content="This file contains information regarding lecture 46." />
+  <meta property="og:url" content="https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/static_resources/" />
+  <meta property="og:title" content="Software Studio | Electrical Engineering and Computer Science | MIT OpenCourseWare" />
+  <meta property="og:description" content="MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity" />
 
   
 
@@ -43,14 +43,14 @@
 <meta name="twitter:site" content="@mitocw" />
 <meta name="twitter:image:src" content="https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/080db013fccc2ad61ea6a87e4ddc2e95_6-170s13.jpg" />
 
-  <link rel="canonical" href="https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/resources/mit6_170s13_46-dom-stars/" />
+  <link rel="canonical" href="https://ocw.mit.edu/courses/6-170-software-studio-spring-2013/static_resources/" />
 
   <script type="application/ld+json">
       {
         "@context": "http://schema.org/",
         "@type" : "WebPage",
         "name": "MIT OpenCourseWare",
-        "description": "This file contains information regarding lecture 46.",
+        "description": "MIT OpenCourseWare is a web based publication of virtually all MIT course content. OCW is open and available to the world and is a permanent MIT activity",
         "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
         "publisher": {
           "@type": "CollegeOrUniversity",
@@ -59,7 +59,7 @@
       }
   </script>
 
-  <title>DOM: Star Rating Widget Example | Software Studio | Electrical Engineering and Computer Science | MIT OpenCourseWare</title>
+  <title>Software Studio | Electrical Engineering and Computer Science | MIT OpenCourseWare</title>
   <style>
   @font-face {
     font-family: 'Material Icons';
@@ -67,16 +67,16 @@
     font-weight: 400;
     src: local('Material Icons'),
       local('MaterialIcons-Regular'),
-      url(../../static_shared/fonts/MaterialIcons-Regular.subset.504c7f0c308e930e9255.woff2) format('woff2'),
-      url(../../static_shared/fonts/MaterialIcons-Regular.subset.1f8f08f2bf0d6e078379.woff) format('woff'),
-      url(../../static_shared/fonts/MaterialIcons-Regular.subset.aa271372671db14b34f2.ttf) format('truetype');
+      url(../static_shared/fonts/MaterialIcons-Regular.subset.504c7f0c308e930e9255.woff2) format('woff2'),
+      url(../static_shared/fonts/MaterialIcons-Regular.subset.1f8f08f2bf0d6e078379.woff) format('woff'),
+      url(../static_shared/fonts/MaterialIcons-Regular.subset.aa271372671db14b34f2.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Material Icons Round';
     font-style: normal;
     font-weight: 400;
     src: local("MaterialIcons-Round"),
-    url(../../static_shared/fonts/MaterialIconsRound-Regular.subset.7154eae1d0e60e0dabe4.woff2) format('woff2');
+    url(../static_shared/fonts/MaterialIconsRound-Regular.subset.7154eae1d0e60e0dabe4.woff2) format('woff2');
   }
   @font-face {
     font-family: 'Cardo Bold';
@@ -84,7 +84,7 @@
     font-weight: bold;
     src: local('Cardo'),
       local('Cardo-Bold'),
-      url(../../static_shared/fonts/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf) format('truetype');
+      url(../static_shared/fonts/Cardo-Bold.d7bf1aa6f322a64b2fc3.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Cardo Italic';
@@ -92,7 +92,7 @@
     font-weight: 400;
     src: local('Cardo'),
       local('Cardo-Italic'),
-      url(../../static_shared/fonts/Cardo-Italic.0935d2ebbc05be3559b1.ttf) format('truetype');
+      url(../static_shared/fonts/Cardo-Italic.0935d2ebbc05be3559b1.ttf) format('truetype');
   }
   @font-face {
     font-family: 'Helvetica Light';
@@ -100,10 +100,10 @@
     font-weight: 400;
     src: local('Helvetica Light'),
       local('Helvetica-Light'),
-      url(../../static_shared/fonts/Helvetica-Light.70359849afb40079a1c8.ttf) format('truetype');
+      url(../static_shared/fonts/Helvetica-Light.70359849afb40079a1c8.ttf) format('truetype');
   }
   .external-link.nav-link::after {
-    background-image: url('../../static_shared/images/external_link.58bbdd86c00a2c146c36.svg'); 
+    background-image: url('../static_shared/images/external_link.58bbdd86c00a2c146c36.svg'); 
   }
   </style>
 </head>
@@ -131,7 +131,7 @@
       id="close-mobile-course-menu-button"
       >
       <img
-        src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+        src="../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
         alt=""
         width="12px"
       />
@@ -158,7 +158,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="4b4e1986-753a-956b-1d98-ca07abfe00df"
-           href="../../pages/syllabus/index.html" >
+           href="../pages/syllabus/index.html" >
           Syllabus
         </a>
       
@@ -194,7 +194,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="c80d9ffe-2e3d-8fc6-b777-5f35b6f43220"
-           href="../../pages/calendar/index.html" >
+           href="../pages/calendar/index.html" >
           Calendar
         </a>
       
@@ -230,7 +230,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="6b6aaff6-5564-7548-6cac-616cb72ef1ea"
-           href="../../pages/readings/index.html" >
+           href="../pages/readings/index.html" >
           Readings
         </a>
       
@@ -266,7 +266,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="cf1ce8a7-b030-ae95-29fe-ab84f20f3ff2"
-           href="../../pages/lecture-notes/index.html" >
+           href="../pages/lecture-notes/index.html" >
           Lecture Notes
         </a>
       
@@ -302,7 +302,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="d7a647f3-28ab-84d8-1ca5-1afd7100e87a"
-           href="../../pages/recitations/index.html" >
+           href="../pages/recitations/index.html" >
           Recitations
         </a>
       
@@ -340,7 +340,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="1b52d2eb-781f-59fc-2005-cfdb8156e288"
-           href="../../pages/projects/index.html" >
+           href="../pages/projects/index.html" >
           Projects
         </a>
       
@@ -386,7 +386,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="cd84f10e-c926-28f6-ea47-ff224e7fdfd5"
-           href="../../pages/projects/project-0-a-simple-hello-world-app/index.html" >
+           href="../pages/projects/project-0-a-simple-hello-world-app/index.html" >
           Project 0: A Simple &#34;Hello World&#34; App
         </a>
       
@@ -420,7 +420,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="a34b2caf-5ee0-ad39-fbb0-ce7fdbaa7ac2"
-           href="../../pages/projects/project-1-web-analytics/index.html" >
+           href="../pages/projects/project-1-web-analytics/index.html" >
           Project 1: Web Analytics
         </a>
       
@@ -454,7 +454,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="20735433-db81-6010-17a0-c8daa1a923e7"
-           href="../../pages/projects/project-2-shopping-cart/index.html" >
+           href="../pages/projects/project-2-shopping-cart/index.html" >
           Project 2: Shopping Cart
         </a>
       
@@ -488,7 +488,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="0d24d28e-38e9-aeba-0a38-f6372fba5d1f"
-           href="../../pages/projects/project-3-network-stickies/index.html" >
+           href="../pages/projects/project-3-network-stickies/index.html" >
           Project 3: Network Stickies
         </a>
       
@@ -522,7 +522,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="05d04175-ee26-9075-a490-a2b40d25c00d"
-           href="../../pages/projects/final-project-guidelines/index.html" >
+           href="../pages/projects/final-project-guidelines/index.html" >
           Final Project Guidelines
         </a>
       
@@ -556,7 +556,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="74dc8725-36ca-d9b0-c77d-60f21a3e12ce"
-           href="../../pages/projects/final-project-ideas/index.html" >
+           href="../pages/projects/final-project-ideas/index.html" >
           Final Project Ideas
         </a>
       
@@ -596,7 +596,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="0929dbf5-8d9f-5890-c0e7-d9165d7c8809"
-           href="../../pages/related-resources/index.html" >
+           href="../pages/related-resources/index.html" >
           Related Resources
         </a>
       
@@ -642,7 +642,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="360bda6e-9b4d-44ab-d682-120d3eace2cd"
-           href="../../pages/related-resources/ruby-on-rails-hints-and-gotchas/index.html" >
+           href="../pages/related-resources/ruby-on-rails-hints-and-gotchas/index.html" >
           Ruby on Rails: Hints and Gotcha&#39;s
         </a>
       
@@ -683,7 +683,7 @@
       >
       <img
         class=""
-        src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+        src="../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
         alt=""
         width="12px"
       />
@@ -937,7 +937,7 @@
 <div class="pb-3">
   <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
     role="button"
-    href="../../download/index.html">
+    href="../download/index.html">
     <div class="text-center w-100">Browse Resources</div>
   </a>
 </div>
@@ -965,7 +965,7 @@
     </button>
     <div class="mx-auto">
       <a href="https://ocw.mit.edu/">
-        <img width="200" src="../../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare"/>
+        <img width="200" src="../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare"/>
       </a>
     </div>
     <div class="user-menu-container"></div>
@@ -995,7 +995,7 @@
     <div class="left">
       <div class="ocw-logo">
         <a href="https://ocw.mit.edu/">
-          <img src="../../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare" />
+          <img src="../static_shared/images/ocw_logo_white.cabdc9a745b03db3dad4.svg" alt="MIT OpenCourseWare" />
         </a>
       </div>
     </div>
@@ -1003,7 +1003,7 @@
       
       <a class="give-button text-white text-decoration-none font-weight-bold small-link d-flex align-items-center" aria-label="Give Now - Donate to MIT OpenCourseWare" href="https://giving.mit.edu/give/to/ocw/?utm_source=ocw&amp;utm_medium=homepage_banner&amp;utm_campaign=nextgen_home">
         <span class="m-0 pr-2">GIVE NOW</span>
-        <img src="../../static_shared/images/heart_burgundy.e7c8635e8cc6538b89fa.svg" class="heart-burgundy" alt="" />
+        <img src="../static_shared/images/heart_burgundy.e7c8635e8cc6538b89fa.svg" class="heart-burgundy" alt="" />
       </a>
       <a   class="text-white text-decoration-none font-weight-bold pl-5 pr-3 py-2"    href="https://ocw.mit.edu/about"  >about ocw</a>
       <a   class="text-white text-decoration-none font-weight-bold px-3 py-2"   target="_blank"   href="https://mitocw.zendesk.com/hc/en-us"  >help &amp; faqs</a>
@@ -1030,7 +1030,7 @@
       <h1>
         <a
           class="text-capitalize m-0 text-white"
-          href="../../index.html"
+          href="../index.html"
         >Software Studio</a>
       </h1>
     </div>
@@ -1054,7 +1054,7 @@
     data-toggle="offcanvas"
     data-target="#mobile-course-nav"
   >
-    <img src="../../static_shared/images/expand.a062b1c47b121e3c7e03.svg" alt=""/>
+    <img src="../static_shared/images/expand.a062b1c47b121e3c7e03.svg" alt=""/>
     <span class="pl-1">Menu</span>
   </button>
 </div>
@@ -1103,7 +1103,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="4b4e1986-753a-956b-1d98-ca07abfe00df"
-           href="../../pages/syllabus/index.html" >
+           href="../pages/syllabus/index.html" >
           Syllabus
         </a>
       
@@ -1139,7 +1139,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="c80d9ffe-2e3d-8fc6-b777-5f35b6f43220"
-           href="../../pages/calendar/index.html" >
+           href="../pages/calendar/index.html" >
           Calendar
         </a>
       
@@ -1175,7 +1175,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="6b6aaff6-5564-7548-6cac-616cb72ef1ea"
-           href="../../pages/readings/index.html" >
+           href="../pages/readings/index.html" >
           Readings
         </a>
       
@@ -1211,7 +1211,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="cf1ce8a7-b030-ae95-29fe-ab84f20f3ff2"
-           href="../../pages/lecture-notes/index.html" >
+           href="../pages/lecture-notes/index.html" >
           Lecture Notes
         </a>
       
@@ -1247,7 +1247,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="d7a647f3-28ab-84d8-1ca5-1afd7100e87a"
-           href="../../pages/recitations/index.html" >
+           href="../pages/recitations/index.html" >
           Recitations
         </a>
       
@@ -1285,7 +1285,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="1b52d2eb-781f-59fc-2005-cfdb8156e288"
-           href="../../pages/projects/index.html" >
+           href="../pages/projects/index.html" >
           Projects
         </a>
       
@@ -1331,7 +1331,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="cd84f10e-c926-28f6-ea47-ff224e7fdfd5"
-           href="../../pages/projects/project-0-a-simple-hello-world-app/index.html" >
+           href="../pages/projects/project-0-a-simple-hello-world-app/index.html" >
           Project 0: A Simple &#34;Hello World&#34; App
         </a>
       
@@ -1365,7 +1365,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="a34b2caf-5ee0-ad39-fbb0-ce7fdbaa7ac2"
-           href="../../pages/projects/project-1-web-analytics/index.html" >
+           href="../pages/projects/project-1-web-analytics/index.html" >
           Project 1: Web Analytics
         </a>
       
@@ -1399,7 +1399,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="20735433-db81-6010-17a0-c8daa1a923e7"
-           href="../../pages/projects/project-2-shopping-cart/index.html" >
+           href="../pages/projects/project-2-shopping-cart/index.html" >
           Project 2: Shopping Cart
         </a>
       
@@ -1433,7 +1433,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="0d24d28e-38e9-aeba-0a38-f6372fba5d1f"
-           href="../../pages/projects/project-3-network-stickies/index.html" >
+           href="../pages/projects/project-3-network-stickies/index.html" >
           Project 3: Network Stickies
         </a>
       
@@ -1467,7 +1467,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="05d04175-ee26-9075-a490-a2b40d25c00d"
-           href="../../pages/projects/final-project-guidelines/index.html" >
+           href="../pages/projects/final-project-guidelines/index.html" >
           Final Project Guidelines
         </a>
       
@@ -1501,7 +1501,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="74dc8725-36ca-d9b0-c77d-60f21a3e12ce"
-           href="../../pages/projects/final-project-ideas/index.html" >
+           href="../pages/projects/final-project-ideas/index.html" >
           Final Project Ideas
         </a>
       
@@ -1541,7 +1541,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="0929dbf5-8d9f-5890-c0e7-d9165d7c8809"
-           href="../../pages/related-resources/index.html" >
+           href="../pages/related-resources/index.html" >
           Related Resources
         </a>
       
@@ -1587,7 +1587,7 @@
       
         <a class="text-dark nav-link"
           data-uuid="360bda6e-9b4d-44ab-d682-120d3eace2cd"
-           href="../../pages/related-resources/ruby-on-rails-hints-and-gotchas/index.html" >
+           href="../pages/related-resources/ruby-on-rails-hints-and-gotchas/index.html" >
           Ruby on Rails: Hints and Gotcha&#39;s
         </a>
       
@@ -1623,84 +1623,6 @@
                 <div class="p-0 col-lg-9" id="main-course-section">
                   <div class="card-body">
                     
-<div class="rounded mb-2">
-  <header>
-  <div class="course-section-title-container">
-    <div id="course-title">
-      
-      <div class="course-content-parent-title">Lecture Notes</div>
-      
-      <h2 class="pb-1 mb-1">DOM: Star Rating Widget Example</h2>
-    </div>
-  </div>
-</header>
-
-</div>
-
-   
-<div class="resource-page-container"><div class="row">
-        <div class="label col-12">Description:</div>
-        <div class="content col-12"><p>This file contains information regarding lecture 46.</p>
-</div>
-      </div><div class="row resource-type">
-          <div class="label resource-type">Resource Type:</div>
-          <div class="content">Lecture Notes</div>
-        </div><div class="resource-item resource-body p-0">
-      <div class="row p-0 m-0">
-        <div class="resource-details-container col-lg-12 d-flex flex-wrap">
-          <div class="wrapper d-flex col-12 col-lg-7 col-md-8 col-sm-7">
-            <a class="resource-thumbnail" href="../../static_resources/3d214f422bce315227ea5d05853cfada_MIT6_170S13_46-dom-stars.pdf" target="_blank" aria-label="Download file" download>
-              
-              <div class="resource-type-thumbnail pdf">
-                <div class="d-flex align-self-center">pdf</div>
-              </div>  
-              <div class="download-container">
-                    <span class="download-link">
-                      
-                          <img
-                            class="hide-offline resources-download"
-                            src="../../static_shared/images/resource-download.dab02d010ffdeffef264.svg"
-                            aria-hidden="true"
-                          />
-                      
-                    </span>
-                    
-                    <div class="resource-list-file-size">
-                      600 kB
-                    </div>
-                    
-              </div>
-            </a>
-            <div class="resource-list-item-details">
-              DOM: Star Rating Widget Example
-            </div>
-          </div>
-          <div class="download-button-container col-12 col-sm align-self-center d-flex justify-content-end p-0"><div class="button-wrapper">
-                <a class="download-file" href="../../static_resources/3d214f422bce315227ea5d05853cfada_MIT6_170S13_46-dom-stars.pdf">
-                  Download File
-                </a>
-              </div>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="pdf-viewer w-100 pb-5">
-  <div id="pdf-wrapper" class="mt-5"></div>
-  <script type="text/javascript">
-    window.addEventListener("load", (event) => {
-      const options = {
-        width:  "100%",
-        height: "100vh",
-        fallbackLink: ""
-      }
-      window.PDFObject.embed("..\/..\/static_resources\/3d214f422bce315227ea5d05853cfada_MIT6_170S13_46-dom-stars.pdf", "#pdf-wrapper", options)
-    })
-  </script>
-</div>
-
-  
-</div>
 
 
                   </div>
@@ -1718,12 +1640,12 @@
 >
   <img
     class="expand-drawer-img drawer-icon-img"
-    src="../../static_shared/images/left_arrow.3c482a1f6223bff3f0e6.svg"
+    src="../static_shared/images/left_arrow.3c482a1f6223bff3f0e6.svg"
     alt=""
   />
   <img
     class="collapse-drawer-img drawer-icon-img"
-    src="../../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
+    src="../static_shared/images/close_small.b0a2684ccc0da6407a56.svg"
     alt=""
   />
 </button>
@@ -1978,7 +1900,7 @@
 <div class="pb-3">
   <a class="download-course-link-button btn btn-outline-primary btn-link link-button text-decoration-none px-4 py-2"
     role="button"
-    href="../../download/index.html">
+    href="../download/index.html">
     <div class="text-center w-100">Browse Resources</div>
   </a>
 </div>
@@ -2002,7 +1924,7 @@
             	<div class="col-12 col-md-8 px-0">
 					<div class="d-md-flex align-items-center">
 						<a href="https://openlearning.mit.edu/" target="_blank">
-							<img width="117px" src="../../static_shared/images/mit_ol.4165342f87abb1da46fd.svg" alt="MIT Open Learning" />
+							<img width="117px" src="../static_shared/images/mit_ol.4165342f87abb1da46fd.svg" alt="MIT Open Learning" />
 						</a>
 						<div class="ml-md-3 mt-4 mt-md-0">
 							<div class="font-weight-bold">
@@ -2018,37 +1940,37 @@
 					<div class="d-flex justify-content-md-end">
 	<div>
 		<a href="https://www.facebook.com/MITOCW" target="_blank">
-			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
+			<img class="footer-social-icon ml-0" src="../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.instagram.com/mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
+			<img class="footer-social-icon" src="../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://twitter.com/MITOCW" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
+			<img class="footer-social-icon" src="../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.youtube.com/mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
+			<img class="footer-social-icon" src="../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
-			<img class="footer-social-icon nudge-up" src="../../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
+			<img class="footer-social-icon nudge-up" src="../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://bsky.app/profile/mitocw.bsky.social" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
+			<img class="footer-social-icon" src="../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://mastodon.social/@mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
+			<img class="footer-social-icon" src="../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
 		</a>
 	</div>
 </div>
@@ -2080,7 +2002,7 @@
 						<div>
 						Proud member of: 
 						<a href="https://www.oeglobal.org/" target="_blank">
-							<img class="oeg-logo" src="../../static_shared/images/oeg_logo.8a31f7b87f30df2d0169.png" alt="Open Education Global"/>
+							<img class="oeg-logo" src="../static_shared/images/oeg_logo.8a31f7b87f30df2d0169.png" alt="Open Education Global"/>
 						</a>
 						</div>
 					</div>
@@ -2092,37 +2014,37 @@
 			<div class="d-flex justify-content-md-end">
 	<div>
 		<a href="https://www.facebook.com/MITOCW" target="_blank">
-			<img class="footer-social-icon ml-0" src="../../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
+			<img class="footer-social-icon ml-0" src="../static_shared/images/Facebook.d1f5caeb73d7d12505a2.png" alt="facebook"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.instagram.com/mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
+			<img class="footer-social-icon" src="../static_shared/images/Instagram.4df41828ffee4ff33d8a.png" alt="instagram"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://twitter.com/MITOCW" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
+			<img class="footer-social-icon" src="../static_shared/images/x-formerly-twitter-black.f8c75ad9f42902726d25.png" alt="x (formerly twitter)"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.youtube.com/mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
+			<img class="footer-social-icon" src="../static_shared/images/Youtube.7c9f62c4f1dc9515ebb4.png" alt="youtube"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://www.linkedin.com/company/mit-opencourseware/" target="_blank">
-			<img class="footer-social-icon nudge-up" src="../../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
+			<img class="footer-social-icon nudge-up" src="../static_shared/images/linkedin-black.2f7f8a6a3899f5d1e1d6.png" alt="linkedin"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://bsky.app/profile/mitocw.bsky.social" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
+			<img class="footer-social-icon" src="../static_shared/images/bluesky-black.9f4523fcefa9b6f25be7.png" alt="bluesky"/>
 		</a>
 	</div>
 	<div>
 		<a href="https://mastodon.social/@mitocw" target="_blank">
-			<img class="footer-social-icon" src="../../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
+			<img class="footer-social-icon" src="../static_shared/images/mastodon-black.9e2de31a28415c123800.png" alt="mastodon"/>
 		</a>
 	</div>
 </div>
@@ -2136,7 +2058,7 @@
 
 
     
-    <script src="../../static_shared/js/course_offline.a04cb.js"></script>
+    <script src="../static_shared/js/course_offline.a04cb.js"></script>
     
 
     
@@ -2180,7 +2102,7 @@ hideLinksOffline()
         <div class="d-flex align-items-center">
           <img
             class="modal-header-icon-img mr-3 align-baseline"
-            src="../../static_shared/images/external_link.58bbdd86c00a2c146c36.svg"
+            src="../static_shared/images/external_link.58bbdd86c00a2c146c36.svg"
             alt=""
             aria-hidden="true"
           />
